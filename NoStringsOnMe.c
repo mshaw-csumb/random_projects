@@ -17,13 +17,20 @@ void choice3()
 int main()
 {
 	char * flag = "flag{n0_str1ngs_0n_m3}";
-	printf("Looking for a flag?\n");
-	printf("Enter a number, and I'll give you the flag:");
+	printf("Looking for a flag?\n\n");
+	//printf("Enter a number, and I'll give you the flag:");
+
+	printf("%s\n","\t1. Test your luck, maybe it's this one");
+	printf("%s\n","\t2. Or maybe it's this one!");
+	printf("%s\n","\t3. It's definitely this one.");
+	
+
+	printf("\nEnter a number, and I'll give you the flag:");
 
 	char choice;
 
 	choice = getchar();
-	printf("%c is your choice\n",choice);
+	//printf("%c is your choice\n",choice);
 
 	switch(choice)
 	{
