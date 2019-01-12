@@ -16,7 +16,7 @@ void choice3()
 }
 int main()
 {
-	char * flag = "flag{n0_str1ngs_0n_m3}";
+	char * flag = "flag{g00d_us3_0f_str1ngs}";
 	printf("Looking for a flag?\n\n");
 	//printf("Enter a number, and I'll give you the flag:");
 
